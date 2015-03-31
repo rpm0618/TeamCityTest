@@ -24,7 +24,7 @@ namespace TeamCityTest
 
         public void Add()
         {
-            screen = numbers.Aggregate((x, y) => x + y);
+            screen = numbers.Aggregate((x, y) => x * y);
         }
 
         public int GetScreen()
